@@ -15,7 +15,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 configMapData:
-  title: "Welcome to AKS with ArgoCD  Nils"
+  title: "Welcome to AKS with ArgoCD"
 
 podAnnotations: {}
 
