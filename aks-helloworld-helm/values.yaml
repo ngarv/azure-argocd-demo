@@ -15,7 +15,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 configMapData:
-  title: "Welcome to AKS with ArgoCD Helm Nils"
+  title: "Welcome to AKS with ArgoCD"
 
 podAnnotations: {}
 
@@ -24,7 +24,7 @@ podSecurityContext: {}
 securityContext: {}
 
 service:
-  type: LoadBalancer
+  type: ClusterIP
   port: 80
 
 ingress:
