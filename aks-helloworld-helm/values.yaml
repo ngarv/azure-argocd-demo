@@ -32,7 +32,7 @@ ingress:
   className: ""
   annotations: 
     ingress.kubernetes.io/force-ssl-redirect: 'true'
-    kubernetes.io/ingress.class: addon-http-application-routing
+    kubernetes.io/ingress.class: ''
   hosts:
     - host: aks-helloworld-helm.b853740bf1c7416a8df0.francecentral.aksapp.io
       paths:
